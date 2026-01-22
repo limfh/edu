@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding-top: 20px;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    padding-bottom: 20px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body {
+    background-color: #f9fafb;
+}
+
+.logo img {
+    width: 35px;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    margin-right: 240px;
+}
+
+.logo a {
+    color: blueviolet;
+    font-size: 35px;
+    font-weight: 400;
+
+}
+
+.navigation a {
+    color: black;
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+
+.vxodreg a {
+    color: black;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-flex;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    padding: 15px 30px 15px 30px;
+}
+
+.btnf {
+    display: inline-flex;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    padding: 15px 30px 15px 30px;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+    color: white;
+    transition: all 0.5s;
+    transform: translateY(-2px);
+}
+
+.btnf:hover {
+    background-color: blueviolet;
+    color: white;
+    transition: all 0.5s;
+    transform: translateY(-2px);
+}
+
+.nav1:hover {
+
+    color: blueviolet;
+    border-bottom: 2px solid blueviolet;
+    padding-bottom: 5px;
+    transition: all 0.1s;
+}
+
+main {
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    color: blueviolet;
+}
+
+.content p {
+    padding-top: 20px;
+    font-size: 18px;
+    color: #6b7280;
+    text-align: center;
+}
+
+.search-filter {
+  display: flex;
+    gap: 30px;
+   margin-left: 570px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    max-width: 800px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 15px 20px;
+    border: 2px solid #e5e7eb;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.search-box input:focus {
+    border-color: blueviolet;
+    outline: none;
+}
+
+.filter select {
+    padding: 15px 20px;
+    border: 2px solid #e5e7eb;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.filter select:focus {
+    border-color: blueviolet;
+    outline: none;
+}
+
+.tests {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.test-card {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease;
+}
+
+.test-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+    border-color: blueviolet;
+}
+
+.test-info {
+    flex: 1;
+}
+
+.test-info h3 {
+    font-size: 22px;
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+
+.test-info p {
+    color: #6b7280;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.test {
+    display: flex;
+    gap: 20px;
+
+}
+
+.text {
+    color: #6b7280;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.test-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 150px;
+}
+
+.start-btn {
+    background-color: blueviolet;
+    color: white;
+    border: 2px solid blueviolet;
+    padding: 12px 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.start-btn:hover {
+    background-color: #8a2be2;
+    transform: translateY(-2px);
+}
+
+.details-btn {
+    background-color: white;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    padding: 12px 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.details-btn:hover {
+    background-color: #f5f3ff;
+    transform: translateY(-2px);
+}
+
+footer {
+    padding-top: 100px;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid #374151;
+    color: #9ca3af;
+    font-size: 16px;
+}
+
+.test-card.hidden {
+    display: none;
+}
+
+.no-results {
+    display: none;
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+    color: #666;
+}
+
+.no-results.show {
+    display: block;
+}

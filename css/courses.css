@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding-top: 20px;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    padding-bottom: 20px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body {
+    background-color: #f9fafb;
+}
+
+.logo img {
+    width: 35px;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    margin-right: 240px;
+}
+
+.logo a {
+    color: blueviolet;
+    font-size: 35px;
+    font-weight: 400;
+
+}
+
+.navigation a {
+    color: black;
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+
+.vxodreg a {
+    color: black;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-flex;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    padding: 15px 30px 15px 30px;
+}
+
+.btnf {
+    display: inline-flex;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    padding: 15px 30px 15px 30px;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+    color: white;
+    transition: all 0.5s;
+    transform: translateY(-2px);
+}
+
+.btnf:hover {
+    background-color: blueviolet;
+    color: white;
+    transition: all 0.5s;
+    transform: translateY(-2px);
+}
+
+.nav1:hover {
+
+    color: blueviolet;
+    border-bottom: 2px solid blueviolet;
+    padding-bottom: 5px;
+    transition: all 0.1s;
+}
+
+
+
+.courses-main {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.courses-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.courses-header h1 {
+    font-size: 48px;
+    color: blueviolet;
+    margin-bottom: 20px;
+}
+
+.courses-header p {
+    font-size: 18px;
+    color: #6b7280;
+    line-height: 1.6;
+}
+
+.courses1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.courses2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.course-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    border: 1px solid #e5e7eb;
+    transition: all 0.4s;
+    width: 400px;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+}
+
+.course-image img {
+    width: 400px;
+    height: 370px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.course-content {
+    padding: 25px;
+}
+
+.course-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.course-level,
+.course-less {
+    font-size: 14px;
+    color: #6b7280;
+    background-color: #f3f4f6;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.course-title {
+    font-size: 22px;
+    color: #111827;
+    margin-bottom: 12px;
+}
+
+.course-info1 {
+    font-size: 16px;
+    color: #6b7280;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.course-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.rating-stars {
+    color: #fbbf24;
+    font-size: 18px;
+}
+
+.rating-num {
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.course-price {
+    text-align: right;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+    display: block;
+}
+
+.course-btn {
+    display: flex;
+    color: white;
+    align-items: center;
+    text-align: center;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: blueviolet;
+}
+
+.course-btn:hover {
+    transform: translateY(-2px);
+}
+
+.courses-info h2 {
+    font-size: 36px;
+    color: blueviolet;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.info-item {
+    flex: 1;
+    min-width: 300px;
+    max-width: 350px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    border: 1px solid #e5e7eb;
+}
+
+.info-item img {
+    margin-bottom: 20px;
+}
+
+.info-item h3 {
+    font-size: 22px;
+    color: #111827;
+    margin-bottom: 15px;
+}
+
+.info-item p {
+    font-size: 16px;
+    color: #6b7280;
+
+}
+
+footer {
+    padding-top: 100px;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid #374151;
+    color: #9ca3af;
+    font-size: 16px;
+}

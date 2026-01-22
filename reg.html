@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/icons8-тестирование.gif">
+    <link rel="stylesheet" href="css/reg.css">
+    <title>Регистрация</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img class="img" src="img/icons8-тестирование.gif" alt="">
+            <a href="index.html">EDU</a>
+        </div>
+        <div class="navigation">
+            <a class="nav1" href="index.html">Главная</a>
+            <a class="nav1" href="test.html">Тестирования</a>
+            <a class="nav1" href="courses.html">Курсы</a>
+            <a class="nav1" href="result.html">Результаты</a>
+        </div>
+        <div class="vxodreg">
+            <a class="btn" href="vxod.html">Вход</a>
+            <a class="btnf" href="reg.html">Регистрация</a>
+        </div>
+    </header>
+
+    <div class="center">
+        <main class="auth">
+            <div class="image">
+
+            </div>
+            <div class="register-form">
+                <div class="form-header">
+                    <h1>Создать аккаунт</h1>
+                    <p>Заполните форму для регистрации</p>
+                </div>
+
+                <form id="registerForm">
+                    <div class="flex">
+                        <div class="form-group">
+                            <label for="firstName">Имя</label>
+                            <input type="text" placeholder="Введите имя" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Фамилия</label>
+                            <input type="text" placeholder="Введите фамилию" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email адрес</label>
+                        <input type="email" placeholder="example@mail.ru" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Пароль</label>
+                        <input type="password" placeholder="Создайте пароль" required>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="confirmPassword">Подтвердите пароль</label>
+                        <input type="password" placeholder="Повторите пароль" required>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Зарегистрироваться</button>
+
+                    <div class="login-link">
+                        <p>Уже есть аккаунт? <a href="vxod.html">Войти</a></p>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div class="copyright">
+            &copy; 2026 EDU. Все права защищены.
+        </div>
+    </footer>
+
+    <script src="reg.js"></script>
+</body>
+
+</html>

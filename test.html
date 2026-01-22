@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/icons8-тестирование.gif">
+    <link rel="stylesheet" href="css/test.css">
+    <title>Тестирование</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img class="img" src="img/icons8-тестирование.gif" alt="">
+            <a href="index.html">EDU</a>
+        </div>
+        <div class="navigation">
+            <a class="nav1" href="index.html">Главная</a>
+            <a class="nav1" href="test.html">Тестирования</a>
+            <a class="nav1" href="courses.html">Курсы</a>
+            <a class="nav1" href="result.html">Результаты</a>
+        </div>
+        <div class="vxodreg">
+            <a class="btn" href="vxod.html">Вход</a>
+            <a class="btnf" href="reg.html">Регистрация</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="content">
+            <h1>Доступные тесты</h1>
+            <p>Выберите тест для проверки своих знаний. Все тесты с автоматической проверкой и мгновенными результатами.
+            </p>
+        </div>
+       
+            <div class="search-filter">
+                <div class="search-box">
+                    <input type="text" id="search" placeholder="Поиск теста">
+                </div>
+                <div class="filter">
+                    <select id="category">
+                        <option value="all">Все категории</option>
+                        <option value="programming">Программирование</option>
+                        <option value="math">Математика</option>
+                        <option value="language">Языки</option>
+                    </select>
+                </div>
+            </div>
+      
+
+        <div class="tests">
+            <div class="test-card" data-category="programming">
+                <div class="test-info">
+                    <h3>HTML & CSS </h3>
+                    <p>Основы верстки веб-страниц. 20 вопросов по HTML и CSS.</p>
+                    <div class="test">
+                        <span class="text">30 мин</span>
+                        <span class="text">20 вопросов</span>
+                        <span class="text">Средний уровень</span>
+                    </div>
+                </div>
+                <div class="test-btn">
+                    <a href="#" class="start-btn">Начать тест</a>
+                    <a href="#" class="details-btn">Подробнее</a>
+                </div>
+            </div>
+
+            <div class="test-card" data-category="programming">
+                <div class="test-info">
+                    <h3>JavaScript</h3>
+                    <p>Основы JavaScript: переменные, функции, объекты и события.</p>
+                    <div class="test">
+                        <span class="text">45 мин</span>
+                        <span class="text">25 вопросов</span>
+                        <span class="text">Средний уровень</span>
+                    </div>
+                </div>
+                <div class="test-btn">
+                    <a href="#" class="start-btn">Начать тест</a>
+                    <a href="#" class="details-btn">Подробнее</a>
+                </div>
+            </div>
+
+            <div class="test-card" data-category="programming">
+                <div class="test-info">
+                    <h3>Python</h3>
+                    <p>Синтаксис Python, структуры данных и базовые алгоритмы.</p>
+                    <div class="test">
+                        <span class="text">40 мин</span>
+                        <span class="text">30 вопросов</span>
+                        <span class="text">Начальный уровень</span>
+                    </div>
+                </div>
+                <div class="test-btn">
+                    <a href="#" class="start-btn">Начать тест</a>
+                    <a href="#" class="details-btn">Подробнее</a>
+                </div>
+            </div>
+
+            <div class="test-card" data-category="language">
+                <div class="test-info">
+                    <h3>Английский язык</h3>
+                    <p>Грамматика, лексика</p>
+                    <div class="test">
+                        <span class="text">35 мин</span>
+                        <span class="text">40 вопросов</span>
+                        <span class="text">Средний уровень</span>
+                    </div>
+                </div>
+                <div class="test-btn">
+                    <a href="#" class="start-btn">Начать тест</a>
+                    <a href="#" class="details-btn">Подробнее</a>
+                </div>
+            </div>
+
+            <div class="test-card" data-category="math">
+                <div class="test-info">
+                    <h3>Математика: Алгебра</h3>
+                    <p>Уравнения, функции, системы уравнений и неравенства.</p>
+                    <div class="test">
+                        <span class="text">50 мин</span>
+                        <span class="text">35 вопросов</span>
+                        <span class="text">Продвинутый уровень</span>
+                    </div>
+                </div>
+                <div class="test-btn">
+                    <a href="#" class="start-btn">Начать тест</a>
+                    <a href="#" class="details-btn">Подробнее</a>
+                </div>
+            </div>
+
+            <div class="test-card" data-category="programming">
+                <div class="test-info">
+                    <h3>Основы SQL</h3>
+                    <p>Запросы SELECT, JOIN, агрегатные функции и подзапросы.</p>
+                    <div class="test">
+                        <span class="text">40 мин</span>
+                        <span class="text">25 вопросов</span>
+                        <span class="text">Средний уровень</span>
+                    </div>
+                </div>
+                <div class="test-btn">
+                    <a href="#" class="start-btn">Начать тест</a>
+                    <a href="#" class="details-btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="no-results" id="noResults">
+                <p>По вашему запросу ничего не найдено</p>
+            </div>
+        </div>
+
+        <script src="JS/testfil.js"></script>
+    </main>
+
+    <footer>
+        <div class="copyright">
+            &copy; 2026 EDU. Все права защищены.
+        </div>
+    </footer>
+</body>
+
+</html>
